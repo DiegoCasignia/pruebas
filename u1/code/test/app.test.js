@@ -14,3 +14,4 @@ describe('App.js', () => {
     expect(res.body).toEqual({ message: 'Route not found' });
   });
 });
+

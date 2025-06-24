@@ -19,7 +19,6 @@ describe('User API', () => {
       name: 'Diego Casignia',
       email: 'diego@dirdev.ec'
     };
-
     const res = await request(app).post('/api/users').send(newUser);
     expect(res.statusCode).toBe(201);
     expect(res.body).toMatchObject(newUser);
@@ -31,3 +30,4 @@ describe('User API', () => {
     expect(res.body).toEqual({ message: 'Name and email are required' });
   });
 });
+

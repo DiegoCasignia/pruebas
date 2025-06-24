@@ -1,4 +1,3 @@
-//app.js
 const express = require('express'); 
 const userRoutes = require('./routes/user.routes');
 
@@ -14,7 +13,3 @@ function createApp() {
 
 module.exports = createApp;
 
-//user.routes.js
-
-
-// user.controller.js
